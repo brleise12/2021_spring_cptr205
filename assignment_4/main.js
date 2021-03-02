@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', DOMContentLoaded => {
     ws.addEventListener('close', close => {
         console.log('WEBSOCKETS CLOSED');
     })
-//actual stuff
+//actual stuff hi
     const game = document.querySelector('canvas').getContext('2d'); 
     game.canvas.width = game.canvas.clientWidth; 
     game.canvas.height = game.canvas.clientHeight; 
